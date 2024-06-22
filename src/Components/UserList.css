@@ -1,0 +1,32 @@
+.user-list {
+  padding: 20px;
+  width: 100%;
+}
+
+.user-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-list-item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-list-item:hover {
+  background-color: #e0e0e0;
+}
+
+.user-list-item-content {
+  display: flex;
+  align-items: center;
+}
+
+.user-list-item-username {
+  font-size: 16px;
+  font-weight: bold;
+}

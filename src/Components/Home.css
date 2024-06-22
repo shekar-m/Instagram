@@ -1,0 +1,16 @@
+.home-page {
+  display: flex;
+  
+}
+
+.content-container {
+  flex-grow: 1;
+  width: calc(100% - 170px); /* Adjust based on sidebar width */
+  margin-left: 170px; /* Ensure space for sidebar */
+  transition: all 0.3s ease;
+}
+
+.messaging-view .home-page {
+  display: none;
+}
+

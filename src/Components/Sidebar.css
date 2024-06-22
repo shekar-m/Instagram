@@ -1,0 +1,59 @@
+/* Sidebar styles */
+.sidebar {
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden; /* Ensure no scrollbars appear */
+  background-color: #fff;
+  
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Sidebar header */
+.sidebar-header {
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  padding: 10px 15px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Sidebar menu */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.sidebar-menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.sidebar-menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Sidebar menu icon */
+.sidebar-menu-icon {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+/* Sidebar menu text */
+.sidebar-menu-text {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Arial', sans-serif;
+}

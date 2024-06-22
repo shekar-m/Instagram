@@ -1,0 +1,22 @@
+.messaging-app {
+  display: flex;
+  height: 100vh;
+  
+}
+
+.user-list-section {
+  width: 30%; /* Adjust width as needed */
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.conversation-section {
+  width: 35%; /* Adjust width as needed */
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.message-list-section {
+  width: 35%; /* Adjust width as needed */
+  overflow-y: auto;
+}

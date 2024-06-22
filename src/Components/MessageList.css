@@ -1,0 +1,56 @@
+.message-list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%; /* Ensure it takes the full width */
+  }
+  
+  .messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .sent {
+    align-self: flex-end;
+    background-color: #dcf8c6;
+  }
+  
+  .received {
+    align-self: flex-start;
+    background-color: #ffffff;
+  }
+  
+  .new-message {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .new-message input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .new-message button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .new-message button:hover {
+    background-color: #45a049;
+  }
+  

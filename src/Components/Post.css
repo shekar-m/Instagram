@@ -1,0 +1,29 @@
+.post-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow posts to wrap to the next line */
+  justify-content:flex-start; /* Align posts to the start */
+  width: 100%;
+  height: fit-content;
+  
+}
+
+.post {
+  width: 100%; /* Take full width of container */
+  max-width: 100%; /* Limit maximum width of each post */
+  margin: 10px; /* Add some margin between posts */
+  border: 1px solid #ccc; /* Add a border to each post */
+  border-radius: 10px; /* Add rounded corners to each post */
+  overflow: hidden; /* Ensure content doesn't overflow the post container */
+  align-items: start;
+ 
+
+}
+
+.post img {
+  align-items: flex-start;
+  max-width: 900px;
+  width: 100%; /* Make the image take the full width of its parent */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the entire container without distortion */
+}
+
