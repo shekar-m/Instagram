@@ -1,0 +1,34 @@
+
+.user-list {
+  width: 100%;
+  border-right: 1px solid #ccc;
+  overflow: hidden;
+  width: 800px;
+
+} 
+
+.user-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  position: relative;
+ 
+}
+
+
+
+.user-item.highlighted {
+  background-color: #e0f7fa; 
+}
+
+.message-bubble {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+}

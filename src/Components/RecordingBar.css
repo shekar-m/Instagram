@@ -1,0 +1,41 @@
+.recording-bar-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .recording-bar-background {
+    position: relative;
+    flex: 1;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .recording-bar-progress {
+    height: 100%;
+    background-color: red;
+    border-radius: 5px;
+    transition: width 0.1s linear;
+  }
+  
+  .recording-controls {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .recording-time {
+    margin-right: 10px;
+  }
+  
+  .pause-button,
+  .stop-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+  }
+  
